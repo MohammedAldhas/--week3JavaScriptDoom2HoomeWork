@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>ToDo</title>
+  </head>
+  <body>
+    <div class="land position-absolute top-0 start-0 end-0 z-n1 h-50 w-100">
+      <img class="h-100 w-100 opacity-50" src="./img/Color.jpg" alt="" />
+    </div>
+
+    <div class="cent row justify-content-center py-5 mt-5">
+      <div class="row justify-content-center mt-5 col-11 col-md-7 col-lg-7">
+        <div class="up row align-items-center">
+          <h1 class="col text-white">ToDo</h1>
+          <i
+            class="fa-solid fa-moon col text-end fs-2"
+            style="color: #ffffff"
+          ></i>
+        </div>
+
+        <input
+          class="tex-faild form-control form-control-lg m-1"
+          type="text"
+          placeholder=".form-control-lg"
+          aria-label=".form-control-lg example"
+        />
+
+        <div class="lsts row mt-3">
+          <div class="card mb-1 col-12">
+          </div>
+          <button onclick="clearAllActive()" class="btn10">Clear Completed</button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./home.js"></script>
+  </body>
+</html>
